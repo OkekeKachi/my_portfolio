@@ -77,16 +77,18 @@ function FeaturedProjectCard({ project }) {
             >
               GitHub
             </Button>
-            <Button
-              size="sm"
-              className="w-full sm:w-auto"
-              onClick={(event) => {
-                event.stopPropagation();
-                window.open(project.demo, "_blank");
-              }}
-            >
-              Live Demo
-            </Button>
+            {project.demo && project.demo !== "#" && (
+              <Button
+                size="sm"
+                className="w-full sm:w-auto"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  window.open(project.demo, "_blank");
+                }}
+              >
+                Live Demo
+              </Button>
+            )}
           </div>
         </div>
       </Card>

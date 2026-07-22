@@ -9,7 +9,7 @@ const projects = [
     role: "Full-stack developer",
     timeline: "5 weeks",
     github: "https://github.com/OkekeKachi/Sexual-and-Gender-Based-Violence-Reporting-Tool",
-    demo: "#",
+    demo: "https://safespeak-theta.vercel.app",
     featured: true,
     image: "/images/projects/safespeak.png",
     heroImage: "/images/projects/safespeak.png",
