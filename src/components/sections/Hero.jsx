@@ -34,7 +34,7 @@ function Hero() {
               transition={{ duration: 0.7, ease: "easeOut" }}
               className="space-y-6"
             >
-              <p className="text-sm font-semibold uppercase tracking-[0.32em] text-sky-400">
+              <p className="text-sm font-bold uppercase tracking-[0.32em]">
               Hello, I&apos;m
               </p>
               <h1 className="text-5xl font-semibold tracking-tight text-white sm:text-6xl">
@@ -42,7 +42,7 @@ function Hero() {
               </h1>
               <p className="text-xl font-medium text-slate-300">Software Engineer</p>
               <p className="max-w-2xl text-base leading-8 text-slate-400">
-                I&apos;m a software engineer based in Abuja, Nigeria. I enjoy building scalable web applications, experimenting with AI-powered solutions, and creating products with clean architecture and exceptional user experiences.
+                I am a full-stack software engineer based in Abuja, Nigeria. I build modern web applications using technologies like React, Next.js, Node.js, and MongoDB, with a focus on creating fast, scalable, and intuitive user experiences.
               </p>
               <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap">
                 <Button

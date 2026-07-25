@@ -122,47 +122,7 @@ const projects = [
       "/images/projects/kachploy-3.png",
     ],
   },
-  {
-    id: 4,
-    slug: "vuna",
-    title: "Vuna",
-    description:
-      "An AI-assisted coaching platform that transforms employee feedback into actionable performance insights, personalized recommendations, and measurable growth plans.",
-    technologies: ["Next.js", "TypeScript", "OpenAI", "Firebase"],
-    techStack: ["Next.js", "TypeScript", "OpenAI", "Firebase", "Tailwind CSS"],
-    role: "AI product developer",
-    timeline: "5 weeks",
-    github: "#",
-    demo: "#",
-    featured: false,
-    image: "/images/projects/vuna.png",
-    heroImage: "/images/projects/vuna.png",
-    problem:
-      "Teams lacked a fast way to turn feedback into actionable coaching insights across projects and roles.",
-    solution:
-      "I built an AI-powered coaching interface that turns performance data into clear suggestions, personalized check-ins, and team growth signals.",
-    features: [
-      "AI-generated coaching recommendations",
-      "Team performance dashboards",
-      "Custom goals and progress tracking",
-      "Feedback capture and review workflows",
-    ],
-    challenges: [
-      "Integrating AI outputs in a trustworthy way.",
-      "Designing a calm, supportive user experience.",
-      "Maintaining clarity across diverse team roles.",
-    ],
-    learned: [
-      "How to design AI-first product experiences.",
-      "How to make coaching feel practical and empowering.",
-      "How to structure feedback workflows for teams.",
-    ],
-    gallery: [
-      "/images/projects/vuna-1.png",
-      "/images/projects/vuna-2.png",
-      "/images/projects/vuna-3.png",
-    ],
-  },
+  
 ];
 
 export default projects;

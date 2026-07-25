@@ -119,9 +119,9 @@ function FeaturedProjects({ projects: projectList }) {
           ))}
         </div>
 
-        <div className="mt-12 flex justify-center">
+        {/* <div className="mt-12 flex justify-center">
           <Button size="lg" onClick={() => router.push("/projects")}>View All Projects</Button>
-        </div>
+        </div> */}
       </Container>
     </Section>
   );

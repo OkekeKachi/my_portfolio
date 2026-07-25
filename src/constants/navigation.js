@@ -12,10 +12,10 @@ export const socialLinks = [
     label: "GitHub",
     href: "https://github.com/OkekeKachi",
   },
-  {
-    label: "LinkedIn",
-    href: "https://www.linkedin.com/",
-  },
+  // {
+  //   label: "LinkedIn",
+  //   href: "https://www.linkedin.com/",
+  // },
 ];
 
 export const resumeLink = {
