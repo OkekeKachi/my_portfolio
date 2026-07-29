@@ -122,6 +122,64 @@ const projects = [
       "/images/projects/kachploy-3.png",
     ],
   },
+  {
+    id: 3,
+    slug: "vuna-geometry-calculator",
+    title: "VUNA Geometry Calculator",
+    description:
+      "A geometry calculator built to demonstrate modern software engineering practices, including automated testing, Docker, and CI/CD with GitHub Actions.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Jest",
+      "GitHub Actions",
+      "Docker",
+    ],
+    techStack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Jest",
+      "GitHub Actions",
+      "Docker",
+    ],
+    role: "Software Engineer",
+    timeline: "2 days",
+    github: "https://github.com/OkekeKachi/ci-cd-pipeline-calculator", // Update if needed
+    demo: "https://kachi.vudse26.cloud",
+    featured: true,
+    image: "/images/projects/vuna-calculator.png",
+    heroImage: "/images/projects/vuna-calculator.png",
+    problem:
+      "Students and professionals often rely on multiple resources to solve geometry problems, making calculations slower and less convenient.",
+    solution:
+      "I built a focused geometry calculator that provides quick and accurate solutions through a clean interface while demonstrating modern software engineering practices such as automated testing and CI/CD.",
+    features: [
+      "Geometry calculations",
+      "Formula-based problem solving",
+      "Responsive user interface",
+      "Automated testing with Jest",
+      "CI/CD pipeline using GitHub Actions",
+      "Dockerized application",
+    ],
+    challenges: [
+      "Designing an interface that keeps geometry calculations simple and intuitive.",
+      "Ensuring calculation accuracy through automated tests.",
+      "Setting up a reliable CI/CD workflow for continuous integration and deployment.",
+    ],
+    learned: [
+      "Building modular JavaScript applications.",
+      "Writing automated tests with Jest.",
+      "Implementing CI/CD using GitHub Actions.",
+      "Containerizing applications with Docker.",
+    ],
+    gallery: [
+      "/images/projects/vuna-calculator-1.png",
+      "/images/projects/vuna-calculator.png",
+      
+    ],
+  }
   
 ];
 
