@@ -5,7 +5,7 @@ import projects from "../data/projects";
 export default function sitemap() {
   const projectPages = projects.map((project) => ({
     url: `${SITE_URL}/projects/${project.slug}`,
-    lastModified: new Date(),
+    lastModified: new Date().toISOString(),
     changeFrequency: "monthly",
     priority: 0.8,
   }));
