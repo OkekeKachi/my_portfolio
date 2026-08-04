@@ -16,9 +16,9 @@ const highlights = [
 ];
 
 const paragraphs = [
-  "I’m Okeke Kachi Felix, a software engineering graduate based in Abuja, Nigeria, and I’m passionate about building products that feel both thoughtful and useful.",
-  "I enjoy turning ideas into clean, modern web experiences through a mix of design sensitivity, frontend craft, and practical engineering.",
-  "What drives me most is the chance to create solutions that are not only polished, but also meaningful to the people using them every day.",
+  "I’m Okeke Kachi Felix, a software engineering graduate based in Abuja, Nigeria, and I’m passionate about building products that feel thoughtful and useful.",
+  "I enjoy creating websites that look great, work well, and provide a smooth experience for users.",
+  "What drives me most is the chance to create solutions that are meaningful to the people using them every day.",
 ];
 
 function About() {
@@ -61,7 +61,7 @@ function About() {
           >
             <SectionHeading
               eyebrow="About"
-              title="Crafting thoughtful digital experiences with clarity and purpose."
+              title="Creating digital products that are simple, functional, and genuinely useful."
               align="left"
               className="mx-0 max-w-none"
             />
