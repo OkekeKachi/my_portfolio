@@ -1,7 +1,7 @@
 export const skillCategories = [
   {
     title: "Frontend",
-    skills: ["HTML5", "CSS3", "JavaScript", "React", "Next.js", "Tailwind CSS"],
+    skills: ["HTML5", "CSS3", "JavaScript","Typescript", "React", "Next.js", "Tailwind CSS"],
   },
   {
     title: "Backend",
@@ -9,11 +9,11 @@ export const skillCategories = [
   },
   {
     title: "Tools",
-    skills: ["Git", "GitHub", "Docker", "GitHub Actions", "VS Code"],
+    skills: ["Git", "GitHub", "Docker"],
   },
   {
     title: "Currently Learning",
-    skills: ["React Native", "AI Engineering", "Python"],
+    skills: ["React Native", "AI Engineering", "Devops"],
   },
 ];
 

@@ -2,12 +2,12 @@ const projects = [
   {
     id: 1,
     slug: "ecommerce",
-    title: "Smart E-Commerce & Swap Platform",
+    title: "Home Decor Marketplace",
     description:
-      "A full-stack marketplace that supports buying, selling, and item swapping through a unified product management and transaction workflow.",
-    technologies: ["React", "Express", "MongoDB"],
-    techStack: ["React", "Express", "MongoDB", "Stripe", "Vercel"],
-    role: "Product and frontend lead",
+      "A full-stack e-commerce platform that allows users to buy, sell, and swap home decor items in a single marketplace.",
+    technologies: ["Next.js", "Express", "MongoDB"],
+    techStack: ["Next.js", "Express", "MongoDB", "Paystack", "Vercel"],
+    role: "Full-stack developer",
     timeline: "4 weeks",
     github: "https://github.com/OkekeKachi/home-decor-app",
     demo: "https://home-decor-app.vercel.app",
@@ -45,8 +45,8 @@ const projects = [
     slug: "safespeak",
     title: "SafeSpeak",
     description:"A privacy-first web application that enables survivors to submit anonymous SGBV reports while allowing authorized caseworkers to securely manage, track, and respond to cases.",
-    technologies: ["Next.js", "Node.js", "MongoDB", "Firebase"],
-    techStack: ["Next.js", "Node.js", "MongoDB", "Firebase", "Tailwind CSS"],
+    technologies: ["React.js", "Express.js", "Firebase"],
+    techStack: ["React.js", "Express.js", "Node.js", "Firebase", "Tailwind CSS"],
     role: "Full-stack developer",
     timeline: "5 weeks",
     github: "https://github.com/OkekeKachi/Sexual-and-Gender-Based-Violence-Reporting-Tool",
@@ -86,8 +86,8 @@ const projects = [
     title: "Kachploy",
     description:
       "A recruitment platform that streamlines job posting, candidate applications, and hiring workflows through dedicated employer and applicant dashboards.",
-    technologies: ["Next.js", "Node.js", "Express", "MongoDB", "Firebase"],
-    techStack: ["Next.js", "Node.js", "Express", "MongoDB", "Firebase"],
+    technologies: ["Next.js", "Node.js", "Express", "Firebase"],
+    techStack: ["Next.js", "Node.js", "Express", "Firebase"],
     role: "UX-focused full-stack engineer",
     timeline: "6 weeks",
     github: "https://github.com/OkekeKachi/Kachploy",
@@ -120,65 +120,66 @@ const projects = [
       "/images/projects/kachploy-2.png",
       "/images/projects/kachploy-3.png",
     ],
-  },
-  {
-    id: 3,
-    slug: "vuna-geometry-calculator",
-    title: "VUNA Geometry Calculator",
-    description:
-      "A geometry calculator built to demonstrate modern software engineering practices, including automated testing, Docker, and CI/CD with GitHub Actions.",
-    technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Jest",
-      "GitHub Actions",
-      "Docker",
-    ],
-    techStack: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Jest",
-      "GitHub Actions",
-      "Docker",
-    ],
-    role: "Software Engineer",
-    timeline: "2 days",
-    github: "https://github.com/OkekeKachi/ci-cd-pipeline-calculator", // Update if needed
-    demo: "https://kachi.vudse26.cloud",
-    featured: true,
-    image: "/images/projects/vuna-calculator.png",
-    heroImage: "/images/projects/vuna-calculator.png",
-    problem:
-      "Students and professionals often rely on multiple resources to solve geometry problems, making calculations slower and less convenient.",
-    solution:
-      "I built a focused geometry calculator that provides quick and accurate solutions through a clean interface while demonstrating modern software engineering practices such as automated testing and CI/CD.",
-    features: [
-      "Geometry calculations",
-      "Formula-based problem solving",
-      "Responsive user interface",
-      "Automated testing with Jest",
-      "CI/CD pipeline using GitHub Actions",
-      "Dockerized application",
-    ],
-    challenges: [
-      "Designing an interface that keeps geometry calculations simple and intuitive.",
-      "Ensuring calculation accuracy through automated tests.",
-      "Setting up a reliable CI/CD workflow for continuous integration and deployment.",
-    ],
-    learned: [
-      "Building modular JavaScript applications.",
-      "Writing automated tests with Jest.",
-      "Implementing CI/CD using GitHub Actions.",
-      "Containerizing applications with Docker.",
-    ],
-    gallery: [
-      "/images/projects/vuna-calculator-1.png",
-      "/images/projects/vuna-calculator.png",
-      
-    ],
   }
+    
+  // {
+  //   id: 3,
+  //   slug: "vuna-geometry-calculator",
+  //   title: "VUNA Geometry Calculator",
+  //   description:
+  //     "A geometry calculator built to demonstrate modern software engineering practices, including automated testing, Docker, and CI/CD with GitHub Actions.",
+  //   technologies: [
+  //     "HTML",
+  //     "CSS",
+  //     "JavaScript",
+  //     "Jest",
+  //     "GitHub Actions",
+  //     "Docker",
+  //   ],
+  //   techStack: [
+  //     "HTML",
+  //     "CSS",
+  //     "JavaScript",
+  //     "Jest",
+  //     "GitHub Actions",
+  //     "Docker",
+  //   ],
+  //   role: "Software Engineer",
+  //   timeline: "2 days",
+  //   github: "https://github.com/OkekeKachi/ci-cd-pipeline-calculator", // Update if needed
+  //   demo: "https://kachi.vudse26.cloud",
+  //   featured: true,
+  //   image: "/images/projects/vuna-calculator.png",
+  //   heroImage: "/images/projects/vuna-calculator.png",
+  //   problem:
+  //     "Students and professionals often rely on multiple resources to solve geometry problems, making calculations slower and less convenient.",
+  //   solution:
+  //     "I built a focused geometry calculator that provides quick and accurate solutions through a clean interface while demonstrating modern software engineering practices such as automated testing and CI/CD.",
+  //   features: [
+  //     "Geometry calculations",
+  //     "Formula-based problem solving",
+  //     "Responsive user interface",
+  //     "Automated testing with Jest",
+  //     "CI/CD pipeline using GitHub Actions",
+  //     "Dockerized application",
+  //   ],
+  //   challenges: [
+  //     "Designing an interface that keeps geometry calculations simple and intuitive.",
+  //     "Ensuring calculation accuracy through automated tests.",
+  //     "Setting up a reliable CI/CD workflow for continuous integration and deployment.",
+  //   ],
+  //   learned: [
+  //     "Building modular JavaScript applications.",
+  //     "Writing automated tests with Jest.",
+  //     "Implementing CI/CD using GitHub Actions.",
+  //     "Containerizing applications with Docker.",
+  //   ],
+  //   gallery: [
+  //     "/images/projects/vuna-calculator-1.png",
+  //     "/images/projects/vuna-calculator.png",
+      
+  //   ],
+  // }
   
 ];
 
